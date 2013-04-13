@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AgileDashboardWebUI", "AgileDashboardWebUI\AgileDashboardWebUI.csproj", "{E1454285-7269-4E3B-8936-487CF19878DF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AgileDashboardWebUI.Tests", "AgileDashboardWebUI.Tests\AgileDashboardWebUI.Tests.csproj", "{F43337D0-AD80-40A7-85D8-01778183B9D7}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E1454285-7269-4E3B-8936-487CF19878DF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E1454285-7269-4E3B-8936-487CF19878DF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E1454285-7269-4E3B-8936-487CF19878DF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E1454285-7269-4E3B-8936-487CF19878DF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F43337D0-AD80-40A7-85D8-01778183B9D7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F43337D0-AD80-40A7-85D8-01778183B9D7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F43337D0-AD80-40A7-85D8-01778183B9D7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F43337D0-AD80-40A7-85D8-01778183B9D7}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
