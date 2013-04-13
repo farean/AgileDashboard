@@ -5,6 +5,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AgileDashboardWebUI", "Agil
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AgileDashboardWebUI.Tests", "AgileDashboardWebUI.Tests\AgileDashboardWebUI.Tests.csproj", "{F43337D0-AD80-40A7-85D8-01778183B9D7}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AgileDashboardService", "AgileDashboardService\AgileDashboardService.csproj", "{983AFFDD-31F1-48B5-980E-79BFBE3AB26D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AgileDashboardContracts", "AgileDashboardContracts\AgileDashboardContracts.csproj", "{2F98202C-6D85-4320-889B-F93FB0EB7B60}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -19,6 +23,14 @@ Global
 		{F43337D0-AD80-40A7-85D8-01778183B9D7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F43337D0-AD80-40A7-85D8-01778183B9D7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F43337D0-AD80-40A7-85D8-01778183B9D7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{983AFFDD-31F1-48B5-980E-79BFBE3AB26D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{983AFFDD-31F1-48B5-980E-79BFBE3AB26D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{983AFFDD-31F1-48B5-980E-79BFBE3AB26D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{983AFFDD-31F1-48B5-980E-79BFBE3AB26D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2F98202C-6D85-4320-889B-F93FB0EB7B60}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2F98202C-6D85-4320-889B-F93FB0EB7B60}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2F98202C-6D85-4320-889B-F93FB0EB7B60}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2F98202C-6D85-4320-889B-F93FB0EB7B60}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

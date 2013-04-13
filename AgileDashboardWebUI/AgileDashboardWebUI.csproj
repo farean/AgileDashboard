@@ -134,6 +134,12 @@
   <ItemGroup>
     <Content Include="Views\projects\Index.cshtml" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\AgileDashboardService\AgileDashboardService.csproj">
+      <Project>{983AFFDD-31F1-48B5-980E-79BFBE3AB26D}</Project>
+      <Name>AgileDashboardService</Name>
+    </ProjectReference>
+  </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>

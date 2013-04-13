@@ -28,3 +28,5 @@ C:\sources\AgileDashboard\AgileDashboardWebUI\bin\System.Web.WebPages.Razor.xml
 C:\sources\AgileDashboard\AgileDashboardWebUI\obj\Debug\ResolveAssemblyReference.cache
 C:\sources\AgileDashboard\AgileDashboardWebUI\obj\Debug\AgileDashboardWebUI.dll
 C:\sources\AgileDashboard\AgileDashboardWebUI\obj\Debug\AgileDashboardWebUI.pdb
+C:\sources\AgileDashboard\AgileDashboardWebUI\bin\AgileDashboardService.dll
+C:\sources\AgileDashboard\AgileDashboardWebUI\bin\AgileDashboardService.pdb

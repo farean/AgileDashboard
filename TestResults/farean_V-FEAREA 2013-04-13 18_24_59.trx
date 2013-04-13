@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="88a5bc12-e52a-4b94-9fff-7435b57c2e8b" name="farean@V-FEAREA 2013-04-13 18:24:59" runUser="EVOLUTION\farean" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Default Test Settings" id="814b183f-0aab-4f06-8186-81d71ad6adf3">
+    <Deployment runDeploymentRoot="farean_V-FEAREA 2013-04-13 18_24_59">
+      <DeploymentItem filename="C:\sources\AgileDashboard\packages\Microsoft.AspNet.WebPages.2.0.20710.0\lib\net40\System.Web.Helpers.dll" />
+      <DeploymentItem filename="C:\sources\AgileDashboard\packages\Microsoft.Net.Http.2.0.20710.0\lib\net40\System.Net.Http.WebRequest.dll" />
+      <DeploymentItem filename="C:\sources\AgileDashboard\packages\Newtonsoft.Json.4.5.6\lib\net40\Newtonsoft.Json.dll" />
+      <DeploymentItem filename="C:\sources\AgileDashboard\packages\Microsoft.Web.Infrastructure.1.0.0.0\lib\net40\Microsoft.Web.Infrastructure.dll" />
+      <DeploymentItem filename="C:\sources\AgileDashboard\packages\Microsoft.AspNet.Mvc.4.0.20710.0\lib\net40\System.Web.Mvc.dll" />
+      <DeploymentItem filename="C:\sources\AgileDashboard\packages\Microsoft.Net.Http.2.0.20710.0\lib\net40\System.Net.Http.dll" />
+      <DeploymentItem filename="C:\sources\AgileDashboard\packages\Microsoft.AspNet.WebApi.WebHost.4.0.20710.0\lib\net40\System.Web.Http.WebHost.dll" />
+      <DeploymentItem filename="C:\sources\AgileDashboard\packages\Microsoft.AspNet.WebPages.2.0.20710.0\lib\net40\System.Web.WebPages.Razor.dll" />
+      <DeploymentItem filename="C:\sources\AgileDashboard\packages\Microsoft.AspNet.WebPages.2.0.20710.0\lib\net40\System.Web.WebPages.Deployment.dll" />
+      <DeploymentItem filename="C:\sources\AgileDashboard\AgileDashboardWebUI\bin\AgileDashboardWebUI.dll" />
+      <DeploymentItem filename="C:\sources\AgileDashboard\packages\Microsoft.AspNet.WebApi.Client.4.0.20710.0\lib\net40\System.Net.Http.Formatting.dll" />
+      <DeploymentItem filename="C:\sources\AgileDashboard\packages\Microsoft.AspNet.WebPages.2.0.20710.0\lib\net40\System.Web.WebPages.dll" />
+      <DeploymentItem filename="C:\sources\AgileDashboard\packages\Microsoft.AspNet.WebApi.Core.4.0.20710.0\lib\net40\System.Web.Http.dll" />
+      <DeploymentItem filename="C:\sources\AgileDashboard\packages\Microsoft.AspNet.Razor.2.0.20710.0\lib\net40\System.Web.Razor.dll" />
+      <DeploymentItem filename="C:\sources\AgileDashboard\library\Moq.dll" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2013-04-13T18:24:59.5558285-03:00" queuing="2013-04-13T18:25:00.2308671-03:00" start="2013-04-13T18:25:00.2678693-03:00" finish="2013-04-13T18:25:00.7968995-03:00" />
+  <ResultSummary outcome="Failed">
+    <Counters total="1" executed="1" error="0" failed="1" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" passed="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="CallProjectsController_GetAllProjects_ReturnsJsonResult" storage="c:\sources\agiledashboard\agiledashboardwebui.tests\bin\debug\agiledashboardwebui.tests.dll" id="f5179e08-ce81-e549-1d26-772ecbfad968">
+      <Execution id="5f63c34f-8c69-4d67-b7a6-0725d08fc77d" />
+      <TestMethod codeBase="C:/sources/AgileDashboard/AgileDashboardWebUI.Tests/bin/Debug/AgileDashboardWebUI.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="AgileDashboardWebUI.Tests.ProjectsControllerTest, AgileDashboardWebUI.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="CallProjectsController_GetAllProjects_ReturnsJsonResult" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="f5179e08-ce81-e549-1d26-772ecbfad968" executionId="5f63c34f-8c69-4d67-b7a6-0725d08fc77d" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="5f63c34f-8c69-4d67-b7a6-0725d08fc77d" testId="f5179e08-ce81-e549-1d26-772ecbfad968" testName="CallProjectsController_GetAllProjects_ReturnsJsonResult" computerName="V-FEAREA" duration="00:00:00.1534763" startTime="2013-04-13T18:25:00.2768698-03:00" endTime="2013-04-13T18:25:00.7698980-03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="5f63c34f-8c69-4d67-b7a6-0725d08fc77d">
+      <Output>
+        <ErrorInfo>
+          <Message>Assert.IsNotNull failed. </Message>
+          <StackTrace>   at AgileDashboardWebUI.Tests.ProjectsControllerTest.CallProjectsController_GetAllProjects_ReturnsJsonResult() in C:\sources\AgileDashboard\AgileDashboardWebUI.Tests\ProjectsControllerTest.cs:line 83
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+  </Results>
+</TestRun>

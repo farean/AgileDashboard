@@ -1,0 +1,7 @@
+C:\sources\AgileDashboard\AgileDashboardService\obj\Debug\ResolveAssemblyReference.cache
+C:\sources\AgileDashboard\AgileDashboardService\bin\Debug\AgileDashboardService.dll
+C:\sources\AgileDashboard\AgileDashboardService\bin\Debug\AgileDashboardService.pdb
+C:\sources\AgileDashboard\AgileDashboardService\bin\Debug\AgileDashboardContracts.dll
+C:\sources\AgileDashboard\AgileDashboardService\bin\Debug\AgileDashboardContracts.pdb
+C:\sources\AgileDashboard\AgileDashboardService\obj\Debug\AgileDashboardService.dll
+C:\sources\AgileDashboard\AgileDashboardService\obj\Debug\AgileDashboardService.pdb

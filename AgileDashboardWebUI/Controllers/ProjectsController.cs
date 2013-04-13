@@ -18,10 +18,10 @@ namespace AgileDashboardWebUI.Controllers
         public JsonResult GetProjects()
         {
             List<Project> projects = new List<Project>();
-            JsonResult listprojects=new JsonResult();
-            listprojects.Data=projects;
-            
-            return listprojects;
+
+            if (projects == null)
+                projects = new List<Project>();
+            return this.Json(projects);
             }
     }
 }

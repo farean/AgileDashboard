@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="dc5f70c2-4bb7-41b6-91e2-3c0c1ea15831" name="farean@V-FEAREA 2013-04-13 18:19:43" runUser="EVOLUTION\farean" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Default Test Settings" id="01602b00-3886-4a08-9e6e-f523ce61189e">
+    <Deployment runDeploymentRoot="farean_V-FEAREA 2013-04-13 18_19_43">
+      <DeploymentItem filename="C:\sources\AgileDashboard\packages\Microsoft.AspNet.WebPages.2.0.20710.0\lib\net40\System.Web.Helpers.dll" />
+      <DeploymentItem filename="C:\sources\AgileDashboard\packages\Microsoft.Net.Http.2.0.20710.0\lib\net40\System.Net.Http.WebRequest.dll" />
+      <DeploymentItem filename="C:\sources\AgileDashboard\packages\Newtonsoft.Json.4.5.6\lib\net40\Newtonsoft.Json.dll" />
+      <DeploymentItem filename="C:\sources\AgileDashboard\packages\Microsoft.Web.Infrastructure.1.0.0.0\lib\net40\Microsoft.Web.Infrastructure.dll" />
+      <DeploymentItem filename="C:\sources\AgileDashboard\packages\Microsoft.AspNet.Mvc.4.0.20710.0\lib\net40\System.Web.Mvc.dll" />
+      <DeploymentItem filename="C:\sources\AgileDashboard\packages\Microsoft.Net.Http.2.0.20710.0\lib\net40\System.Net.Http.dll" />
+      <DeploymentItem filename="C:\sources\AgileDashboard\packages\Microsoft.AspNet.WebApi.WebHost.4.0.20710.0\lib\net40\System.Web.Http.WebHost.dll" />
+      <DeploymentItem filename="C:\sources\AgileDashboard\packages\Microsoft.AspNet.WebPages.2.0.20710.0\lib\net40\System.Web.WebPages.Razor.dll" />
+      <DeploymentItem filename="C:\sources\AgileDashboard\packages\Microsoft.AspNet.WebPages.2.0.20710.0\lib\net40\System.Web.WebPages.Deployment.dll" />
+      <DeploymentItem filename="C:\sources\AgileDashboard\AgileDashboardWebUI\bin\AgileDashboardWebUI.dll" />
+      <DeploymentItem filename="C:\sources\AgileDashboard\packages\Microsoft.AspNet.WebApi.Client.4.0.20710.0\lib\net40\System.Net.Http.Formatting.dll" />
+      <DeploymentItem filename="C:\sources\AgileDashboard\packages\Microsoft.AspNet.WebPages.2.0.20710.0\lib\net40\System.Web.WebPages.dll" />
+      <DeploymentItem filename="C:\sources\AgileDashboard\packages\Microsoft.AspNet.WebApi.Core.4.0.20710.0\lib\net40\System.Web.Http.dll" />
+      <DeploymentItem filename="C:\sources\AgileDashboard\packages\Microsoft.AspNet.Razor.2.0.20710.0\lib\net40\System.Web.Razor.dll" />
+      <DeploymentItem filename="C:\sources\AgileDashboard\library\Moq.dll" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2013-04-13T18:19:43.1427307-03:00" queuing="2013-04-13T18:19:45.2278500-03:00" start="2013-04-13T18:19:45.5208668-03:00" finish="2013-04-13T18:22:40.4878743-03:00" />
+  <ResultSummary outcome="Completed">
+    <Counters total="1" executed="1" passed="1" error="0" failed="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="CallProjectsController_GetAllProjects_ReturnsJsonResult" storage="c:\sources\agiledashboard\agiledashboardwebui.tests\bin\debug\agiledashboardwebui.tests.dll" id="f5179e08-ce81-e549-1d26-772ecbfad968">
+      <Execution id="3be06066-ffdf-49ed-813f-446568e0d8e9" />
+      <TestMethod codeBase="C:/sources/AgileDashboard/AgileDashboardWebUI.Tests/bin/Debug/AgileDashboardWebUI.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="AgileDashboardWebUI.Tests.ProjectsControllerTest, AgileDashboardWebUI.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="CallProjectsController_GetAllProjects_ReturnsJsonResult" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="f5179e08-ce81-e549-1d26-772ecbfad968" executionId="3be06066-ffdf-49ed-813f-446568e0d8e9" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="3be06066-ffdf-49ed-813f-446568e0d8e9" testId="f5179e08-ce81-e549-1d26-772ecbfad968" testName="CallProjectsController_GetAllProjects_ReturnsJsonResult" computerName="V-FEAREA" duration="00:02:52.8709111" startTime="2013-04-13T18:19:45.9278900-03:00" endTime="2013-04-13T18:22:40.3178646-03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="3be06066-ffdf-49ed-813f-446568e0d8e9">
+    </UnitTestResult>
+  </Results>
+</TestRun>

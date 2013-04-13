@@ -80,6 +80,7 @@ namespace AgileDashboardWebUI.Tests
             var resultcontroller = controller.GetProjects();
             Assert.IsNotNull(resultcontroller);
             Assert.IsInstanceOfType(resultcontroller, typeof(JsonResult));
+            Assert.IsNotNull(resultcontroller.Data);
         }
     }
 }
